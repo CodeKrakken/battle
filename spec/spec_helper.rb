@@ -2,7 +2,6 @@ ENV['RACK_ENV'] = 'test'
 
 require 'sinatra'
 require './app'
-# require File.join(File.(app), '..', 'app.rb')
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
